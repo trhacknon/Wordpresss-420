@@ -102,7 +102,7 @@ def attack(target, user, passlist, restore = False):
 
 def conexion():
     parser = argparse.ArgumentParser(
-            usage="python2 wp.py -t [target] -u [user] -w [passlist]",
+            usage="python2 wp-b.py -t [target] -u [user] -w [passlist]",
             add_help=False,        
     )
     parser.add_argument("-h", "--help", action="help", help=" How User This Tool ")
