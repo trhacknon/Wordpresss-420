@@ -1,12 +1,21 @@
-# Wordpress-Bruteforce
+# Wordpress-420
 
 
 
-Wordpress user enumeration and password bruteforce.
+- Exploit Title: Wordpress Plugin Smart Product Review 1.0.4 - Arbitrary File Upload
+-Google Dork: inurl: /wp-content/plugins/smart-product-review/
+-Exploit Author: Keyvan Hardani
+-usage python3 Auto-wp.py www.example.com your Shell.php4/phtml
+
+
+
+
+
+# Wordpress user enumeration and password bruteforce.
 
 #User Enumeration:
 
-usage: python2 wp.py -t [target] -u [user] -w [passlist]
+usage: python2 wp-b.py -t [target] -u [user] -w [passlist]
 
 optional arguments:
 
@@ -22,4 +31,7 @@ optional arguments:
 
 
 # Example
-python2 wp.py-t www.site.com/wp-login.php -u Admin -w wordlist.txt
+python2 wp-b.py-t www.site.com/wp-login.php -u Admin -w wordlist.txt
+
+
+More coming soon 😴
