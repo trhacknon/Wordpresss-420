@@ -5,7 +5,7 @@
 - Exploit Title: Wordpress Plugin Smart Product Review 1.0.4 - Arbitrary File Upload
 -Google Dork: inurl: /wp-content/plugins/smart-product-review/
 -Exploit Author: Keyvan Hardani
--usage python3 Auto-wp.py www.example.com your Shell.php4/phtml
+-usage python3 Auto-wp.py www.example.com your trkn.php4/phtml
 
 
 
