@@ -6,7 +6,7 @@ import time
 import sys
 
 def banner():
-    animation = "|Rh077king\\"
+    animation = "|trhacknon\\"
     for i in range(20):
         time.sleep(0.1)
         sys.stdout.write("\r" + animation[i % len(animation)])
